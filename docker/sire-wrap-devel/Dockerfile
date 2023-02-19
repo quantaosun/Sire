@@ -1,6 +1,6 @@
 # This image is used to create a container for building Sire Python wrappers.
 
-FROM siremol/sire-devel:latest
+FROM siremol/sire-devel:latest@sha256:e51f2dfe9d97e890006c1517d141b1f4b13855413ed093a599339894b584b1cc
 
 # Configure environment
 ENV SHELL=/bin/bash \
