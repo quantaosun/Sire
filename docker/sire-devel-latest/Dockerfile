@@ -2,7 +2,7 @@
 # This image is used to build, package and test the latest version
 # of the devel branch of Sire
 
-FROM siremol/sire-build:latest
+FROM siremol/sire-build:latest@sha256:84604d39727b2473c1142a8753785dbdd382ccb9be2eb1f3df927f711ba6c366
 
 WORKDIR $HOME/Sire
 
