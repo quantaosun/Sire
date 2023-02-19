@@ -3,7 +3,7 @@
 
 # This image is used to create the base container for all Sire builds
 
-FROM sl:6
+FROM sl:6@sha256:a856237ca514944c0589ff3f2fceca8497d3bbf878ed637b885522b81663a1f6
 ENV container docker
 
 RUN yum -y install git wget
